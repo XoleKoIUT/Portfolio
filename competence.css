@@ -6,6 +6,7 @@ body
 	margin      : 0;
 	padding     : 0;
 	font-family : 'Montserrat', sans-serif;
+	background-color : #faefdf  ;
 }
 
 #container
@@ -22,7 +23,7 @@ body
 nav
 {
 	width            : 16%; 
-	background       : linear-gradient(to right, #e66465, 40%, #9198e5);
+	background       : linear-gradient(to right, #e66465, 50%, #9198e5);
     border-right     : 2px solid black;
     padding-bottom   : 100%;
     position         : fixed;
@@ -57,39 +58,53 @@ section
 	border-bottom : 2px solid gray;
 } 
 
-h3
+li
 {
-	font-family     : 'Montserrat', sans-serif;
+	margin-bottom : 1%;
+}
+
+.Texte
+{
+	padding-left : 7%;
+	text-align   : justify;
+}
+
+.Titre
+{
+	font-family : 'Raleway', sans-serif;
+	text-align  : center;
+	color       : #e66465;
+}
+
+.DecoNav
+{
+	margin-bottom   : 20%;
+	margin-left     : 10%;
 	text-decoration : underline;
-	margin-left     : 2%;
-	font-size       : 1.4em;
-	color          : red;
 }
 
-.decalageSection
+/*---------------*/
+/* CSS DU FOOTER */
+/*---------------*/
+footer
 {
-	margin-top    : 2%;
-	margin-bottom : 2%;
+	text-align   : center;
+	padding-left : 16%;
+	font-size    : 80%;
 }
 
-.dimImgIUTAccueil
+button
 {
-	width  : 100%;
+	margin           : 1%; 
+	width            : 5%;
+	border-radius    : 25%;
+	background-color : white;
 }
 
-.decalageNav
+.dimImgFooter
 {
-	margin-bottom : 20%;
-	margin-left   : 10%;
+	width : 45%;
 }
 
-.txtModif
-{
-	color           : blue;
-	margin-left     : 5%;
-}
 
-ol
-{
-	margin-left : 5%;
-}
+/*---------------*/
