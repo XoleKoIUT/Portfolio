@@ -24,10 +24,10 @@ nav
 {
 	width            : 16%; 
 	background       : linear-gradient(to right, #e66465, 50%, #9198e5);
-    border-right     : 2px solid black;
-    padding-bottom   : 100%;
-    position         : fixed;
-    list-style       : none;
+	border-right     : 2px solid black;
+	padding-bottom   : 100%;
+	position         : fixed;
+	list-style       : none;
 }
 
 nav h1
@@ -63,6 +63,56 @@ li
 	margin-bottom : 1%;
 }
 
+.side-nav 
+{
+  position: fixed;
+  height: 100vh;
+  left: 0;
+  top: 0;
+}
+
+/* Pour cacher le sous-nav */
+.wrapper 
+{
+  background: #333;
+  height: 100vh;
+  width: 75px;
+}
+
+/* Placement du "Compétences" pour le sous-nav */
+.nav-bloc 
+{
+	display         : flex;
+	cursor          : pointer;
+	color           : white;
+	margin-left     : 15%;
+	text-decoration : underline;
+}
+
+/* Distance de translation du menu déroulant */
+.nav-bloc:hover .sub-nav 
+{
+	transform : translateX(120%);
+}
+
+/* Pour le nav en lui-même*/
+.sub-nav 
+{
+	padding    : 10px;
+	width      : 200px;
+	height     : 100%;
+	position   : absolute;
+	top        : 0;
+	left       : 0;
+	background : #9198e5;
+	color      : white;
+
+	/* Pour cacher le nav */
+	transform: translateX(-100%);
+	transition   : transform 0.2s ease-in-out;
+	border-right : 2px solid #000;
+}
+
 .Texte
 {
 	padding-left : 7%;
@@ -81,6 +131,13 @@ li
 	margin-bottom   : 20%;
 	margin-left     : 10%;
 	text-decoration : underline;
+}
+
+.DecoSousNav
+{
+	text-decoration : underline;
+	margin-top      : 80%;
+	list-style      : none;
 }
 
 /*---------------*/
