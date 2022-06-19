@@ -65,9 +65,10 @@ section
 
 .Titre
 {
-	font-family  : 'Raleway', sans-serif;
-	padding-left : 5%;
-	color        : #e66465;
+	font-family : 'Raleway', sans-serif;
+	text-align  : center;
+	color       : #e66465;
+	font-size   : 27px;
 }
 
 .DecoNav

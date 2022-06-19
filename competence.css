@@ -104,8 +104,7 @@ li
 	position   : absolute;
 	top        : 0;
 	left       : 0;
-	background : #9198e5;
-	color      : white;
+	background : #e66465;
 
 	/* Pour cacher le nav */
 	transform: translateX(-100%);
@@ -135,10 +134,10 @@ li
 
 .DecoSousNav
 {
-	text-decoration : underline;
-	margin-top      : 80%;
-	list-style      : none;
+	padding-top : 60%;
+	color : white;
 }
+
 
 /*---------------*/
 /* CSS DU FOOTER */
