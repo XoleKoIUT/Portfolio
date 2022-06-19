@@ -78,6 +78,12 @@ section
 	text-decoration : underline;
 }
 
+.ImgPrinc
+{
+	/* Pour que la taille de l'img corresponde à la taille du site */
+	width : 100%;
+}
+
 /*---------------*/
 /* CSS DU FOOTER */
 /*---------------*/
@@ -101,6 +107,4 @@ button
 {
 	width : 45%;
 }
-
-
 /*---------------*/

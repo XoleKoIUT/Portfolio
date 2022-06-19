@@ -130,12 +130,13 @@ li
 	margin-bottom   : 20%;
 	margin-left     : 10%;
 	text-decoration : underline;
+	list-style : none;
 }
 
 .DecoSousNav
 {
 	padding-top : 60%;
-	color : white;
+	color       : white;
 }
 
 
