@@ -46,6 +46,7 @@ nav .onglets a
 	color: white;
 }
 
+/* Modification apportées pour créer des encadrements prenant toute la taille de la page web */
 section
 {
 	width         : 100%;
@@ -53,25 +54,28 @@ section
 	border-bottom : 2px solid gray;
 } 
 
+/* Permet de mettre sur en ligne et avec un écart les liens du Projets_Travaux.html */
 .Liste ul li
 {
     display : inline;
     margin  : 4%;
 }
 
+/* Changer la couleur des liens dans le Projet_Travaux.html */
 .Liste ul li a
 {
     color : black;
 }
 
 
+/* Pour décaller le texte en rapport avec le titre */
 .Texte
 {
 	padding-left : 5%;
 	text-align   : justify;
 }
 
-
+/* Pour chacuns des titres des .html */
 .Titre
 {
 	font-family : 'Raleway', sans-serif;
@@ -80,6 +84,7 @@ section
 	font-size   : 27px;
 }
 
+/* CSS Correspondant à la barre de navigation */
 .DecoNav
 {
 	margin-bottom   : 20%;
@@ -87,10 +92,36 @@ section
 	text-decoration : underline;
 }
 
+/* Pour modifier la taille de l'ImageIUT sur l'index.html */
 .ImgPrinc
 {
 	/* Pour que la taille de l'img corresponde à la taille du site */
 	width : 100%;
+}
+
+.TexteSAE
+{
+	text-align  : center;
+	font-size   : 17px;
+	font-weight : bold;
+}
+
+div .ImgSAE
+{
+	width : 50%;
+	padding-left : 25%;
+}
+
+.LogoYtb
+{
+	width        : 10%;
+	padding-left : 45%;
+}
+
+div .ImgSAE104
+{
+	width : 40%;
+	padding-left : 30%;
 }
 
 /*---------------*/
