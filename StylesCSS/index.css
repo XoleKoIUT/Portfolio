@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body
+{
+	margin      : 0;
+	padding     : 0;
+	font-family : 'Montserrat', sans-serif;
+}
+
+#container
+{
+	display : flex;
+}
+
+#box
+{
+	margin-left :  16%;
+	width       :  84%;
+}
+
+nav
+{
+	width            : 16%; 
+	background       : linear-gradient(to right, #e66465, 50%, #9198e5);
+    border-right     : 2px solid black;
+    padding-bottom   : 100%;
+    position         : fixed;
+    list-style       : none;
+}
+
+nav h1
+{
+	color       : #FFF;
+	font-family : 'Raleway', sans-serif;
+	text-align  : center;
+	font-size   : 35px;
+}
+
+nav .onglets a
+{
+	margin-left     : 5%;
+	text-decoration : none;
+	color           : black;
+	margin-bottom   : 20%;
+}
+
+nav .onglets a
+{
+	color: white;
+}
+
+section
+{
+	width         : 100%;
+	border-bottom : 75%;
+	border-bottom : 2px solid gray;
+} 
+
+.Texte
+{
+	padding-left : 5%;
+	text-align   : justify;
+}
+
+.Titre
+{
+	font-family : 'Raleway', sans-serif;
+	text-align  : center;
+	color       : #e66465;
+	font-size   : 27px;
+}
+
+.DecoNav
+{
+	margin-bottom   : 20%;
+	margin-left     : 10%;
+	text-decoration : underline;
+}
+
+.ImgPrinc
+{
+	/* Pour que la taille de l'img corresponde à la taille du site */
+	width : 100%;
+}
+
+/*---------------*/
+/* CSS DU FOOTER */
+/*---------------*/
+footer
+{
+	text-align   : center;
+	padding-left : 16%;
+	font-size    : 80%;
+}
+
+button
+{
+	margin           : 1%; 
+	width            : 5%;
+	border-radius    : 50%;
+	border           : none;
+	background-color : white;
+}
+
+.dimImgFooter
+{
+	width : 45%;
+}
+/*---------------*/
