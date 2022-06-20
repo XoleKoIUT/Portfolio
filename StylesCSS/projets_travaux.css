@@ -118,11 +118,18 @@ div .ImgSAE
 	padding-left : 45%;
 }
 
-div .ImgSAE104
+.ImgSAE104
 {
 	width : 40%;
-	padding-left : 30%;
+	padding-left : 35%;
 }
+
+.ImgSAE201
+{
+	width : 30%;
+	padding-left : 35%;
+}
+
 
 /*---------------*/
 /* CSS DU FOOTER */
